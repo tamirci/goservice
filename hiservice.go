@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"net/http"
 )
@@ -15,6 +14,6 @@ func main() {
 }
 func hello(w http.ResponseWriter, r *http.Request) {
 	log.Println("hello geldi")
-	fmt.Fprintf(w, "hi!")
+
 	log.Println("hello gecti")
 }
