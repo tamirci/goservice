@@ -10,7 +10,7 @@ func main() {
 	log.Println("main geldi")
 	http.HandleFunc("/hello", hello)
 	log.Println("hello geldi")
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":80", nil)
 	log.Println("80 geldi")
 }
 func hello(w http.ResponseWriter, r *http.Request) {
