@@ -1,5 +1,16 @@
 {
 	"ImportPath": "github.com/tamirci/goservice",
 	"GoVersion": "go1.5.1",
-	"Deps": []
+	"Deps": [
+		{
+			"ImportPath": "github.com/codegangsta/inject",
+			"Comment": "v1.0-rc1-10-g33e0aa1",
+			"Rev": "33e0aa1cb7c019ccc3fbe049a8262a6403d30504"
+		},
+		{
+			"ImportPath": "github.com/go-martini/martini",
+			"Comment": "v1.0-136-g3fed8be",
+			"Rev": "3fed8be780088e20519cdebf952af0d220e42c9c"
+		}
+	]
 }

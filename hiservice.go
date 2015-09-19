@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/go-martini/martini"
+	"github.com/tamirci/goservice/Godeps/_workspace/src/github.com/go-martini/martini"
 	"log"
 )
 
