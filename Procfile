@@ -1,1 +1,1 @@
-worker: goservice
+web: goservice -port=$PORT
