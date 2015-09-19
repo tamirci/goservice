@@ -1,1 +1,2 @@
 web: goservice
+worker: goservice
