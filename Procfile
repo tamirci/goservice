@@ -1,1 +1,1 @@
-web: hiservice
+web: goservice
